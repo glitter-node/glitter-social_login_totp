@@ -1,0 +1,31 @@
+{
+    "identifier": "glitter-social_login_totp",
+    "vendor": "Glitter.kr",
+    "name": {
+        "ko": "글리터 소셜 로그인 TOTP",
+        "en": "Glitter Social Login TOTP"
+    },
+    "version": "1.0.8",
+    "license": "MIT",
+    "description": {
+        "ko": "네이버·카카오·구글·페이스북·GitHub 소셜 로그인에 TOTP 필수 추가 인증을 적용하는 독립 보안 인증 플러그인",
+        "en": "Independent social authentication plugin enforcing mandatory TOTP verification for Naver, Kakao, Google, Facebook, and GitHub."
+    },
+    "g7_version": ">=7.0.10",
+    "dependencies": {
+        "modules": [],
+        "plugins": []
+    },
+    "assets": {
+        "js": {
+            "entry": "resources/js/GlitterSocialLoginTOTP.js",
+            "output": "dist/js/plugin.iife.js"
+        },
+        "handlers": true
+    },
+    "loading": {
+        "strategy": "global",
+        "priority": 100
+    },
+    "icon": "assets/icon.svg"
+}
